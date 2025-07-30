@@ -9,10 +9,10 @@ export const IndustriesSection = () => {
   ];
 
   return (
-    <section className="bg-white py-20 px-6">
-      <div className="max-w-7xl mx-auto">
+    <section className=" px-12 pb-20 ">
+      <div className=" bg-[#222222] mx-auto">
         {/* Header */}
-        <div className="mb-16">
+        <div className="mb-2 px-4 bg-white rounded-2xl w-fit">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Industries We Cater</h2>
           <p className="text-gray-600 max-w-2xl">
             We pride ourselves on building successful, and brand web and mobile applications.
@@ -20,7 +20,7 @@ export const IndustriesSection = () => {
         </div>
 
         {/* Industries Tags */}
-        <div className="bg-gray-900 rounded-2xl p-8">
+        <div className=" rounded-2xl px-8">
           <div className="flex flex-wrap gap-4">
             {industries.map((industry, index) => (
               <div
@@ -35,7 +35,7 @@ export const IndustriesSection = () => {
         </div>
 
         {/* Technology Section */}
-        <div className="mt-16 bg-gray-900 rounded-2xl p-8 text-white relative overflow-hidden">
+        <div className="mt-16  rounded-2xl p-8 text-white relative overflow-hidden">
           {/* Background Decorative Circles */}
           <div className="absolute right-8 top-8 w-24 h-24 bg-gradient-to-br from-green-400 to-green-600 rounded-full opacity-20"></div>
           <div className="absolute right-16 bottom-8 w-16 h-16 bg-gradient-to-br from-green-300 to-green-500 rounded-full opacity-30"></div>

@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <header className="bg-gray-900 rounded-t-4xl px-12 text-white  py-4">
+    <header className="bg-[#222222] rounded-t-4xl px-12 text-white  py-4">
       <div className=" mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-xl font-bold">
@@ -22,9 +22,9 @@ export const Header = () => {
         </nav>
 
         {/* Contact Button */}
-        {/* <Button className="bg-green-400 hover:bg-green-500 text-gray-900 font-medium px-6">
+        <button className="bg-[#8FE89C] text-md text-[#222222] rounded-lg py-2 px-6">
           Contact us
-        </Button> */}
+        </button>
       </div>
     </header>
   );
