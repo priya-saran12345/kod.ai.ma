@@ -33,10 +33,10 @@ export const ClientsSection = () => {
   ];
 
   return (
-    <section className="bg-gray-50 py-20 px-6">
+    <section className=" pb-20 mx-12">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="mb-16">
+        <div className="mb-8">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Clients</h2>
           <p className="text-gray-600 max-w-2xl">
             Discover the success stories and relationships we've built with our valued clients.
@@ -50,6 +50,8 @@ export const ClientsSection = () => {
           <div className="text-gray-400 font-medium">Client Logo</div>
           <div className="text-gray-400 font-medium">Client Logo</div>
           <div className="text-gray-400 font-medium">Client Logo</div>
+        </div>
+        <div className="flex  gap-8">
         </div>
 
         {/* Projects Grid */}
