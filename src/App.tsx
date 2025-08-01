@@ -1,13 +1,13 @@
-import './App.css'
-import { LandingPage } from './pages/LandingPage'
+import { Outlet } from "react-router-dom";
+import { Footer } from "./components/website/Footer";
 
 function App() {
-
   return (
     <>
-    <LandingPage/>
+      <Outlet />
+      <Footer/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

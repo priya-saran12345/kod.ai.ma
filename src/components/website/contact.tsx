@@ -52,7 +52,7 @@ const ContactForm = () => {
                     value={formData.firstName}
                     onChange={handleInputChange}
                     placeholder="First Name"
-                    className="w-full bg-transparent border-b border-gray-600 text-tech-light placeholder-gray-400 py-3 px-0 focus:outline-none focus:border-success transition-colors"
+                    className="w-full  border-b border-gray-600 text-white placeholder-white py-2 px-3 px-0 focus:outline-none focus:border-success transition-colors"
                   />
                 </div>
                 <div>
@@ -62,7 +62,7 @@ const ContactForm = () => {
                     value={formData.lastName}
                     onChange={handleInputChange}
                     placeholder="Last Name"
-                    className="w-full bg-transparent border-b border-gray-600 text-tech-light placeholder-gray-400 py-3 px-0 focus:outline-none focus:border-success transition-colors"
+                    className="w-full  border-b border-gray-600 text-white placeholder-white py-2 px-3 px-0 focus:outline-none focus:border-success transition-colors"
                   />
                 </div>
               </div>
@@ -76,7 +76,7 @@ const ContactForm = () => {
                     value={formData.email}
                     onChange={handleInputChange}
                     placeholder="Email"
-                    className="w-full bg-transparent border-b border-gray-600 text-tech-light placeholder-gray-400 py-3 px-0 focus:outline-none focus:border-success transition-colors"
+                    className="w-full  border-b border-gray-600 text-white placeholder-white py-2 px-3 px-0 focus:outline-none focus:border-success transition-colors"
                   />
                 </div>
                 <div>
@@ -86,7 +86,7 @@ const ContactForm = () => {
                     value={formData.phone}
                     onChange={handleInputChange}
                     placeholder="Phone Number"
-                    className="w-full bg-transparent border-b border-gray-600 text-tech-light placeholder-gray-400 py-3 px-0 focus:outline-none focus:border-success transition-colors"
+                    className="w-full  border-b border-gray-600 text-white placeholder-white py-2 px-3 px-0 focus:outline-none focus:border-success transition-colors"
                   />
                 </div>
               </div>
@@ -97,11 +97,11 @@ const ContactForm = () => {
                   value={formData.message}
                   onChange={handleInputChange}
                   placeholder="Tell Us More"
-                  rows={4}
+                  rows={2}
                   maxLength={1000}
-                  className="w-full bg-transparent border-b border-gray-600
-                   text-tech-light placeholder-gray-400  
-                   px-0 focus:outline-none focus:border-success transition-colors resize-none"
+                  className="w-full  border-b border-gray-600
+                   text-white placeholder-white  
+                   px-3 focus:outline-none focus:border-success transition-colors resize-none"
                 />
                 <div className="absolute bottom-1 right-0 text-xs text-gray-500">
                   {formData.message.length}/1000
@@ -111,7 +111,7 @@ const ContactForm = () => {
               <div className="">
                 <button
                   type="submit"
-                  className="bg-success hover:bg-success/90 text-success-foreground font-semibold py-4 px-8 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-success/25"
+                  className="bg-[#8FE89C] cursor-pointer text-success-foreground font-semibold py-4 px-8 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-success/25"
                 >
                   Consult Our Experts
                 </button>
