@@ -207,12 +207,11 @@
 // };
 
 // export default ContactPage;
-import React from 'react'
 
 const Contact = () => {
   return (
     <div>
-      
+      contact
     </div>
   )
 }
