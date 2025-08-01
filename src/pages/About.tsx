@@ -3,6 +3,7 @@ const About = () => {
   return (
     <div>
       about
+      is here
     </div>
   )
 }
