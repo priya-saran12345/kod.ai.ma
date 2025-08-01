@@ -1,6 +1,6 @@
 export const ServicesSection = () => {
   return (
-    <section className=" py-20 px-12">
+    <section className=" pb-20 px-12">
       <div className=" mx-auto">
         {/* Header */}
         <div className=" mb-8">

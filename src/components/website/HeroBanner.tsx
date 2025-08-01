@@ -1,6 +1,6 @@
 export const HeroBanner = () => {
   return (
-    <section className="bg-[#222222] text-white rounded-b-4xl py-20 px-12 relative overflow-hidden">
+    <section className="bg-[#222222] mb-12 text-white rounded-b-4xl py-20 px-12 relative overflow-hidden">
       {/* Background Decorative Elements */}
       <div className="absolute top-10 right-20 w-32 h-32 bg-gradient-to-br from-green-400 to-green-600 rounded-full opacity-20 blur-xl"></div>
       <div className="absolute bottom-20 right-40 w-24 h-24 bg-gradient-to-br from-green-300 to-green-500 rounded-full opacity-30"></div>
