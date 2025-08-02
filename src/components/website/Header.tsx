@@ -9,7 +9,7 @@ export const Header = () => {
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <div className="relative group">
+          {/* <div className="relative group">
             <button className="flex items-center space-x-1 hover:text-green-400 transition-colors group">
               <span className="relative after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-green-400 after:transition-all after:duration-300 group-hover:after:w-full">
                 Service
@@ -18,7 +18,15 @@ export const Header = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </button>
-          </div>
+          </div> */}
+        <Link
+          to="/services"
+              className="relative group text-white hover:text-green-400 transition-colors"
+        >
+              <span className="relative after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-green-400 after:transition-all after:duration-300 group-hover:after:w-full">
+            Services
+          </span>
+        </Link>
 
           {["Work", "About us", "Articles"].map((item, index) => (
             <a

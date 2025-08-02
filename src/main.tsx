@@ -10,6 +10,7 @@ import Work from "./pages/work";
 import About from "./pages/About";
 // import Articles from "./pages/Articles";
 import Contact from "./pages/Contact";
+import Service from "./pages/Service";
 // import Services from "./pages/Services"; // assuming dropdown or section
 import { LandingPage } from './pages/LandingPage';
 const router = createBrowserRouter([
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <LandingPage /> },
       { path: "work", element: <Work /> },
-      { path: "about", element: <About /> },
+      { path: "aboutus", element: <About /> },
+      { path: "services", element: <Service /> },
       // { path: "articles", element: <Articles /> },
       { path: "contact", element: <Contact /> },
       // { path: "services", element: <Services /> },
