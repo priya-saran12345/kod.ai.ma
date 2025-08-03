@@ -19,8 +19,8 @@ const router = createBrowserRouter([
     element: <App/>, // Contains the navbar and <Outlet />
     children: [
       { index: true, element: <LandingPage /> },
-      { path: "work", element: <Work /> },
-      { path: "aboutus", element: <About /> },
+      { path: "our-work", element: <Work /> },
+      { path: "about-us", element: <About/> },
       { path: "services", element: <Service /> },
       // { path: "articles", element: <Articles /> },
       { path: "contact", element: <Contact /> },
