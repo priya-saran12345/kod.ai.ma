@@ -6,7 +6,7 @@ import {
   createBrowserRouter,
 } from "react-router-dom";
 import App from "./App";
-import Work from "./pages/Work";
+import Work from "./pages/Work.tsx";
 import About from "./pages/About";
 // import Articles from "./pages/Articles";
 import Contact from "./pages/Contact";
