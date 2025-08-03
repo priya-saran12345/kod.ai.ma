@@ -2,11 +2,11 @@
 const ContactSection = () => {
   return (
     // <section className="bg-[url('/grid-bg.svg')]  bg-cover bg-center rounded-3xl py-20 px-4 md:px-12">
-    <section className="  bg-slate-200  bg-center rounded-3xl p-12  mx-12 mb-12">
+    <section className="  bg-slate-200  bg-center rounded-3xl px-3 py-6 md:p-12 mx-4 md:mx-8  lg:mx-12 mb-12">
       <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left: Text */}
         <div className="text-center md:text-left  px-5 space-y-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-black leading-snug">
+          <h2 className="text-2xl md:text-4xl font-bold text-black leading-snug">
             Our Technology Experts <br />
             Are Changes Catalysts
           </h2>

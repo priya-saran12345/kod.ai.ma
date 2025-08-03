@@ -15,8 +15,8 @@ const Services = () => {
       <Service/>
       <ProcessSection/>
       <IndustriesSection/>
-              <div className="mx-12 mb-8">
-          <h2 className="text-4xl font-bold  mb-4">Our Range Of Services</h2>
+              <div className="mx-4 md:mx-8 lg:mx-12 mb-8">
+          <h2 className=" text-2xl md:text-4xl font-bold  mb-4">Our Range Of Services</h2>
           <p className=" ">
             We pride ourselves on building successful, and brand web and mobile applications.
           </p>

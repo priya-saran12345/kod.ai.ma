@@ -22,7 +22,8 @@ const ContactForm = () => {
     console.log("Form submitted:", formData);
   };
   return (
-    <div className="p-4 md:p-6 lg:p-10 rounded-2xl mb-12 bg-[#222222] mx-3 md:mx-8  lg:mx-12">
+    <div className="p-4 md:p-6 lg:p-16 rounded-4xl mb-12 bg-[url('/background/servicecontactbg.png')]
+     mx-3 md:mx-8  lg:mx-12">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}

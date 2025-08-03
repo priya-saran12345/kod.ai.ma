@@ -2,10 +2,10 @@
 
 const EnquirySection = () => {
   return (
-    <div className="bg-white flex-wrap justify-between flex p-8 md:p-16">
+    <div className=" flex-wrap  justify-between flex py-6 md:p-16">
         <div className="md:w-[40%]">
 
-      <h2 className="text-3xl font-bold mb-4">
+      <h2 className=" text-2xl md:text-3xl font-bold mb-4">
         Discover Digital <br /> Transformation
       </h2>
       <p className="text-gray-600 mb-4">
@@ -18,8 +18,8 @@ const EnquirySection = () => {
         />
 
           </div>
-          <div className="md:w-[50%]">
-      <div className="flex gap-2 mb-6">
+          <div className=" mt-4 md:mt-0 md:w-[50%]">
+      <div className="flex flex-wrap  justify-center md:justify-start  gap-2 mb-6">
         <button className="px-4 py-2 bg-[#8FE89C] text-black rounded-md">Get a Quote</button>
         <button className="px-4 py-2 bg-gray-100 text-black rounded-md">Partnership</button>
         <button className="px-4 py-2 bg-gray-100 text-black rounded-md">General Enquiry</button>

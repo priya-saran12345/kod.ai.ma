@@ -41,11 +41,11 @@ const ServicesSection = () => {
     <section className=" py-12 px-6 md:px-10 lg:px-12">
       <div className=" mx-auto">
         {/* Heading */}
-        <div className=" mb-12">
-          <h2 className="text-3xl md:text-4xl font-semibold text-black mb-4">
+        <div className="mb-6 md:mb-12">
+          <h2 className="text-2xl md:text-4xl font-semibold text-black mb-4">
             UI/UX Design Services
           </h2>
-          <p className=" max-w-3xl   md:text-md   ">
+          <p className=" max-w-3xl text-md md:text-md   ">
             We adopt a rapid and reliable approach with the best UI/UX Design services for organisations to achieve their business goals. Eager to know what our expertise can contribute to your business? Here we go!
           </p>
         </div>

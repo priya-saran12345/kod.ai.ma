@@ -8,11 +8,11 @@ const ProcessSection = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-br from-[#111] to-[#1a1a1a] text-white  p-12 rounded-[2rem] mx-4 mb-12">
+    <section className=" bg-[#222222] md:bg-[url('/background/servicecontactbg.png')] text-white p-6 md:p-12 rounded-[2rem] mx-4 mb-12">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left: Text + Image */}
         <div className="space-y-6">
-          <h2 className="text-4xl font-bold">Our Process</h2>
+          <h2 className=" text-2xl md:text-4xl font-bold">Our Process</h2>
           <p className="text-gray-300 text-sm leading-relaxed max-w-md">
             We adopt a rapid and reliable approach with the best UI/UX Design
             services for organisations to achieve their business goals. Eager to
@@ -20,7 +20,7 @@ const ProcessSection = () => {
           </p>
 
           <div className="bg-white rounded-xl p-6 text-left text-black space-y-3 shadow-lg">
-            <div className="space-y-1 text-3xl font-bold">
+            <div className="space-y-1  text-xl md:text-3xl font-bold">
               <p className="">Branding</p>
               <p className="text-[#8FE89C]">Logo Design</p>
               <p className=" font-medium">Product Design</p>
@@ -47,7 +47,7 @@ const ProcessSection = () => {
                 <div className="border-t-[1px] border-grey-700 w-full"></div>
               </div>
               <div className="flex items-center gap-4 bg-white text-black px-6 py-2 rounded-xl shadow-md">
-                <span className="font-medium text-lg">{step.title}</span>
+                <span className="font-medium text-sm md:text-lg">{step.title}</span>
               </div>
             </div>
           ))}

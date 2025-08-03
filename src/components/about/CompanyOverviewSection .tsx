@@ -10,7 +10,7 @@ const CompanyOverviewSection = () => {
   ];
 
   return (
-    <div className="mx-12">
+    <div className="mx-4 md:mx-8 lg:mx-12">
       {sections.map((section, index) => {
         const isEven = index % 2 === 1; // odd index = content left, even index = content right
 
@@ -19,12 +19,12 @@ const CompanyOverviewSection = () => {
             key={index}
             className={`flex flex-col  md:flex-row ${
               isEven ? "md:flex-row-reverse" : ""
-            } justify-between items-start gap-6 mb-12`}
+            } justify-between items-start gap-6 mb-5 md:mb-12`}
           >
             {/* Content Block */}
             <div className="w-full md:w-1/2">
-              <h2 className="text-2xl font-semibold mb-2">{section.title}</h2>
-              <p className="text-gray-700">{description}</p>
+              <h2 className=" text-xl md:text-2xl font-semibold mb-2">{section.title}</h2>
+              <p className="">{description}</p>
             </div>
 
             {/* Image Block */}
