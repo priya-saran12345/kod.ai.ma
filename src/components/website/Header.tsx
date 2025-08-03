@@ -29,15 +29,15 @@ export const Header = () => {
         </Link>
 
           {["Work", "About us", "Articles"].map((item, index) => (
-            <a
+            <Link
               key={index}
-              href={`/${item.toLowerCase().replace(/\s+/g, "")}`}
+              to={`/${item.toLowerCase().replace(/\s+/g, "")}`}
               className="relative group text-white hover:text-green-400 transition-colors"
             >
               <span className="relative after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-green-400 after:transition-all after:duration-300 group-hover:after:w-full">
                 {item}
               </span>
-            </a>
+            </Link>
           ))}
         </nav>
 
