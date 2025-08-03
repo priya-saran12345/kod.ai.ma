@@ -11,7 +11,7 @@ const LocationSection = () => {
 
       <div className="grid md:grid-cols-2 gap-8 ">
         <img
-          src="/src/assets/contact/contact2.png"
+          src="/contact/contact2.png"
           alt="India Gate"
           className="rounded-lg object-cover w-full "
         />

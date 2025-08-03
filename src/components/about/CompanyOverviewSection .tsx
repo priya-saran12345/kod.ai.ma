@@ -4,9 +4,9 @@ const CompanyOverviewSection = () => {
     "Kodaira is a team of innovators dedicated to making AI automation simple and effective. We help businesses streamline workflows, boost efficiency, and scale with smart, AI-driven solutions.";
 
   const sections = [
-    { title: "Our Purpose", image: "/src/assets/About/about1.png" },
-    { title: "Our Vision", image: "/src/assets/About/about1.png" },
-    { title: "Our Mission", image: "/src/assets/About/about1.png" },
+    { title: "Our Purpose", image: "/About/about1.png" },
+    { title: "Our Vision", image: "/About/about1.png" },
+    { title: "Our Mission", image: "/About/about1.png" },
   ];
 
   return (

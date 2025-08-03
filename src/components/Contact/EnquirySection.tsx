@@ -12,7 +12,7 @@ const EnquirySection = () => {
         Please feel free to share your thoughts and we can discuss it over a cup of tea.
       </p>
        <img
-          src="/src/assets/contact/contact1.png"
+          src="/contact/contact1.png"
           alt="India Gate"
           className="rounded-lg object-cover w-full "
         />
