@@ -22,12 +22,12 @@ const ContactForm = () => {
     console.log("Form submitted:", formData);
   };
   return (
-    <div className="p-10 rounded-2xl mb-12 bg-[#222222] mx-12">
+    <div className="p-4 md:p-6 lg:p-10 rounded-2xl mb-12 bg-[#222222] mx-3 md:mx-8  lg:mx-12">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-white">
-            <h2 className="text-5xl font-bold leading-tight mb-6">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
               Our{" "}
               <span className="text-success text-[#8FE89C]">Technology</span>
               <br />
@@ -36,7 +36,7 @@ const ContactForm = () => {
               <span className="text-success text-[#8FE89C]">Changes</span>{" "}
               Catalysts
             </h2>
-            <p className="text-lg text-gray-300 mb-8">
+            <p className=" text-md md:text-lg text-gray-300 mb-8">
               Book A Free Consultation Call With Our Experts Today
             </p>
           </div>
@@ -111,7 +111,8 @@ const ContactForm = () => {
               <div className="">
                 <button
                   type="submit"
-                  className="bg-[#8FE89C] cursor-pointer text-success-foreground font-semibold py-4 px-8 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-success/25"
+                  className="bg-[#8FE89C] cursor-pointer text-success-foreground font-semibold
+                  py-2 md:py-4 px-6 md:px-8 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-success/25"
                 >
                   Consult Our Experts
                 </button>

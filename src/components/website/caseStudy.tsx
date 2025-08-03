@@ -37,22 +37,21 @@ export const CaseStudy = () => {
     },
   ];
   return (
-    <section className=" pb-20 mx-12">
+    <section className="pb-8 md:pb-16 lg:pb-20 mx-3 md:mx-8 lg:mx-12">
       <div className=" mx-auto">
         {/* Header */}
         {/* Client Logos Bar */}
-        <div className=" rounded-2xl max-h-[350px] bg-[#F2F5F8] mb-8 flex w-full overflow-hidden shadow-sm hover:shadow-lg transition-shadow w-64">
-          {/* Project Image/Logo Area */}
-          <div className=" flex items-center w-[50%] justify-center border-b-2">
+        <div className=" rounded-2xl 
+         bg-[#F2F5F8] mb-8 flex flex-wrap md:flex-nowrap w-full overflow-hidden shadow-sm hover:shadow-lg transition-shadow w-64">
+          <div className=" flex items-center md:w-[50%] justify-center">
               <img
                 src={clients[0].logo}
                 alt={clients[0].title}
                 className="w-full"
               />
           </div>
-          {/* Project Details */}
           <div className="p-6 flex flex-col justify-center gap-5">
-                      <div className=" flex items-center  ">
+             <div className=" flex items-center  ">
               <img
                 src={clients[0].sidelogo}
                 alt={clients[0].title}
@@ -60,14 +59,15 @@ export const CaseStudy = () => {
               />
           </div>
 
-            <h3 className="font-bold text-gray-900 mb-2 text-2xl">
+            <h3 className="font-bold  mb-2 text-xl md:text-2xl">
               {clients[0].title}
             </h3>
-            <p className="text-gray-600 text-lg leading-relaxed">
+            <p className=" text-md md:text-lg leading-relaxed">
               {clients[0].description}
             </p>
           </div>
         </div>
+
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2  gap-8">
           {clients.slice(1,3).map((client, index) => (
@@ -85,20 +85,25 @@ export const CaseStudy = () => {
 
               {/* Project Image/Logo Area */}
               {/* Project Details */}
-              <div className="p-6">
-                <h3 className="font-bold text-gray-900 mb-2 text-sm">
+              <div className="pt-3 md:p-6">
+                <h3 className="font-bold text-gray-900 mb-2 text-xl md:text-2xl">
                   {client.title}
                 </h3>
-                <p className="text-gray-600 text-xs leading-relaxed">
+                <p className="text-gray-600 text-md md:text-lg leading-relaxed">
                   {client.description}
                 </p>
               </div>
             </div>
           ))}
         </div>
-                <div className=" rounded-2xl mt-8 max-h-[350px] bg-[#F2F5F8] mb-8 flex w-full overflow-hidden shadow-sm hover:shadow-lg transition-shadow w-64">
+
+
+
+
+                <div className=" rounded-2xl mt-8 flex-wrap
+                md:max-h-[350px] bg-[#F2F5F8] mb-8 flex w-full overflow-hidden shadow-sm hover:shadow-lg transition-shadow w-64">
           {/* Project Image/Logo Area */}
-          <div className=" flex items-center w-[50%] justify-center border-b-2">
+          <div className=" flex items-center md:w-[50%] justify-center border-b-2">
               <img
                 src={clients[3].logo}
                 alt={clients[3].title}
@@ -115,17 +120,17 @@ export const CaseStudy = () => {
               />
           </div>
 
-            <h3 className="font-bold text-gray-900 mb-2 text-2xl">
+            <h3 className="font-bold text-gray-900 mb-2 text-xl lg:text-2xl">
               {clients[3].title}
             </h3>
-            <p className="text-gray-600 text-lg leading-relaxed">
+            <p className="text-gray-600 text-md md:text-lg leading-relaxed">
               {clients[3].description}
             </p>
           </div>
         </div>
-                <div className=" rounded-2xl max-h-[350px] bg-[#F2F5F8] mb-8 flex w-full overflow-hidden shadow-sm hover:shadow-lg transition-shadow w-64">
+                <div className=" rounded-2xl md:max-h-[350px] flex-wrap bg-[#F2F5F8] mb-8 flex w-full overflow-hidden shadow-sm hover:shadow-lg transition-shadow w-64">
           {/* Project Image/Logo Area */}
-          <div className=" flex items-center w-[50%] justify-center border-b-2">
+          <div className=" flex items-center md:w-[50%] justify-center border-b-2">
               <img
                 src={clients[4].logo}
                 alt={clients[4].title}
@@ -142,10 +147,10 @@ export const CaseStudy = () => {
               />
           </div>
 
-            <h3 className="font-bold text-gray-900 mb-2 text-2xl">
+            <h3 className="font-bold  mb-2 text-md lg:text-xl md:text-2xl">
               {clients[4].title}
             </h3>
-            <p className="text-gray-600 text-lg leading-relaxed">
+            <p className="text-gray-600 text-md md:text-lg leading-relaxed">
               {clients[4].description}
             </p>
           </div>

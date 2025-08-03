@@ -41,7 +41,7 @@ export const IndustriesSection = () => {
       <div className="bg-[#222222] rounded-2xl  mx-auto w-full">
         {/* Header */}
         <div className="mb-6 px-6 py-4 bg-white rounded-2xl w-fit">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
+          <h2 className="text-2 xl sm:text-4xl font-bold text-gray-900 mb-2">
             Industries We Cater
           </h2>
           <p className="text-gray-600 max-w-2xl">

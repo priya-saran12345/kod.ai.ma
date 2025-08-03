@@ -2,23 +2,17 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <header className="bg-[#222222] rounded-t-4xl px-12 text-white py-4">
+    <header className="bg-[#222222] rounded-t-4xl px-4 md:px-12 text-white py-4">
       <div className="mx-auto flex items-center justify-between">
         {/* Logo */}
-        <div className="text-xl font-bold">kodaima.</div>
+                <img
+                  src={'/logo.png'}
+                  alt={"kodaima"}
+                  className="max-w-[122px]"
+                />
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          {/* <div className="relative group">
-            <button className="flex items-center space-x-1 hover:text-green-400 transition-colors group">
-              <span className="relative after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-green-400 after:transition-all after:duration-300 group-hover:after:w-full">
-                Service
-              </span>
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
-          </div> */}
         <Link
           to="/services"
               className="relative group text-white hover:text-green-400 transition-colors"
@@ -44,7 +38,7 @@ export const Header = () => {
         {/* Contact Button */}
         <Link
           to="/contact"
-          className="relative group bg-[#8FE89C] text-md text-[#222222] rounded-lg py-2 px-6 inline-block overflow-hidden"
+          className="relative group bg-[#8FE89C] text-md text-[#222222] rounded-lg py-[6px] md:py-2 px-4 md:px-6 inline-block overflow-hidden"
         >
           <span className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#222222] after:transition-all after:duration-300 group-hover:after:w-full">
             Contact us
@@ -54,3 +48,10 @@ export const Header = () => {
     </header>
   );
 };
+
+
+// py-[6px] md:py-2 px-4 md:px-6  button 
+// text-2xl md:text-4xl lg:text-6xl banner heading 
+// text-md md:text-lg  content
+// pb-8 md:pb-14 lg:pb-20 px-3 md:px-8 lg:px-12 margin or padding
+          // <h2 className="text-2xl md:text-4xl font-bold  mb-4">Our Range Of Services</h2>

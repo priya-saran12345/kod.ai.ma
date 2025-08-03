@@ -55,13 +55,13 @@ const IndustriesSection = () => {
   ];
 
   return (
-    <div className="pb-16 mx-12 bg-background">
+    <div className=" pb-8 md:pb-16 mx-3 md:mx-8 lg:mx-12 bg-background">
       <div className="mx-auto">
-        <div className="mb-12">
-          <h2 className="text-4xl font-bold text-foreground mb-4">
+        <div className=" mb-6 md:mb-12">
+          <h2 className=" text-2xl md:text-4xl font-bold text-foreground mb-4">
             Industries We Cater
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl">
+          <p className=" text-md md:text-lg text-muted-foreground max-w-2xl">
             We pride ourselves on building successful, end to end web and mobile applications.
           </p>
         </div>
@@ -70,9 +70,9 @@ const IndustriesSection = () => {
           {industries.map((industry, index) => (
             <div
               key={index}
-              className={`p-6 rounded-3xl bg-[#F2F5F8] hover:bg-[#8FE89C] group transition-all duration-300 hover:shadow-lg`}
+className={`p-6 rounded-3xl ${index === 1 ? 'bg-[#8FE89C]' : 'bg-[#F2F5F8]'} group transition-all duration-300 hover:bg-[#8FE89C] hover:shadow-lg`}
             >
-              <h3 className="text-xl font-semibold mb-6 leading-tight">
+              <h3 className=" text-lg md:text-xl font-semibold mb-6 leading-tight">
                 {industry.title}
               </h3>
 
@@ -80,7 +80,8 @@ const IndustriesSection = () => {
                 {industry.technologies.map((tech, techIndex) => (
                   <div
                     key={techIndex}
-                    className={`flex items-center gap-2 border border-[#B8BECB] group-hover:border-black px-3 py-1.5 rounded-full text-sm`}
+                    className={`flex items-center gap-2 border border-[#B8BECB] group-hover:border-black
+                       px-3 py-1.5 rounded-full text-sm`}
                   >
                     {tech.image && (
                       <img

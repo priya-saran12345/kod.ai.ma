@@ -1,9 +1,9 @@
 export const Footer = () => {
   return (
-    <footer className="bg-[#222222] text-white py-16 px-16">
+    <footer className="bg-[#222222] text-white py-16 px-8 md:px-10 lg:px-16">
       <div className=" mx-auto">
         {/* Main Footer Content */}
-        <div className="grid md:grid-cols-5 gap-8 mb-12">
+        <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 mb-12">
           {/* Company Info */}
 
           {/* Services */}

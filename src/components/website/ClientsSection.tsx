@@ -46,11 +46,11 @@ export const ClientsSection = () => {
   };
 
   return (
-    <section className="mx-12">
+    <section className="mx-3 md:mx-8 lg:mx-12">
       <div className="mx-auto">
         <div className="">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Clients</h2>
-          <p className="text-gray-600 max-w-2xl">
+          <h2 className="text-2xl md:text-4xl font-bold mb-4">Our Clients</h2>
+          <p className=" max-w-2xl">
             Discover the success stories and relationships we've built with our valued clients.
           </p>
         </div>

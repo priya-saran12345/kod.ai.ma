@@ -1,19 +1,19 @@
 export const ServicesSection = () => {
   return (
-    <section className=" pb-20 px-12">
+    <section className=" pb-8 md:pb-14 lg:pb-20 px-3 md:px-8 lg:px-12">
       <div className=" mx-auto">
         {/* Header */}
         <div className=" mb-8">
-          <h2 className="text-4xl font-bold  mb-4">Our Range Of Services</h2>
+          <h2 className="text-2xl md:text-4xl font-bold  mb-4">Our Range Of Services</h2>
           <p className=" ">
             We pride ourselves on building successful, and brand web and mobile applications.
           </p>
         </div>
 
         {/* Services Grid */}
-          <div className=" rounded-3xl mb-8 bg-[#F2F5F8] hover:bg-[#8FE89C] duration-300 p-8 shadow-sm hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-bold  mb-4">App Development</h3>
-            <p className=" text-sm mb-6">
+          <div className=" rounded-3xl mb-8 bg-[#F2F5F8]  duration-300 p-8 shadow-sm hover:shadow-lg transition-shadow">
+            <h3 className=" text-lg md:text-xl font-bold  mb-4">App Development</h3>
+            <p className="text-sm mb-6">
               Provide your applications services and equations services enhancement and systems
             </p>
             
@@ -32,8 +32,8 @@ export const ServicesSection = () => {
           {/* App Development */}
 
           {/* Web Development */}
-          <div className="bg-[#F2F5F8] hover:bg-[#8FE89C] duration-300 rounded-3xl p-8 shadow-sm hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-bold  mb-4">Web Development</h3>
+          <div className="bg-[#F2F5F8]  duration-300 rounded-3xl p-8 shadow-sm hover:shadow-lg transition-shadow">
+            <h3 className="text-lg md:text-xl font-bold  mb-4">Web Development</h3>
             <p className=" text-sm mb-6">
               Provide website development services and equations services enhancement in beautiful and designs
             </p>
@@ -47,8 +47,8 @@ export const ServicesSection = () => {
           </div>
 
           {/* AI Driven Software */}
-          <div className="bg-[#F2F5F8] hover:bg-[#8FE89C] duration-300 rounded-3xl p-8 shadow-sm hover:shadow-lg transition-shadow ">
-            <h3 className="text-xl font-bold mb-4">AI Driven Software</h3>
+          <div className=" bg-[#8FE89C] duration-300 rounded-3xl p-8 shadow-sm hover:shadow-lg transition-shadow ">
+            <h3 className="text-lg md:text-xl font-bold mb-4">AI Driven Software</h3>
             <p className=" text-sm mb-6">
               Provide artificial intelligence driven services and applications development to create intelligent systems
             </p>
