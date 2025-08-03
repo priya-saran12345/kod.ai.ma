@@ -2,7 +2,7 @@ import { CaseStudy } from "../components/website/caseStudy"
 import { ServicesSection } from "../components/website/ServicesSection";
 import Banner from "../components/work/Banner"
 import { IoIosArrowDown } from "react-icons/io";
-const work = () => {
+const Work = () => {
   return (
     <div>
       <div className="m-4">
@@ -58,4 +58,4 @@ const work = () => {
   )
 }
 
-export default work
+export default Work
