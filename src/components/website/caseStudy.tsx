@@ -1,36 +1,36 @@
 export const CaseStudy = () => {
   const clients = [
     {
-      logo: "/src/assets/CaseStudy/case1.png",
-      sidelogo: "/src/assets/CaseStudy/smallcase1.png",
+      logo: "/CaseStudy/case1.png",
+      sidelogo: "/CaseStudy/smallcase1.png",
       title: "Мобильное приложение для Дома на Мойках",
       description:
         "Создание удобного мобильного приложения с современным дизайном",
       color: "bg-orange-100 border-orange-200",
     },
     {
-      logo: "/src/assets/CaseStudy/case2.png",
+      logo: "/CaseStudy/case2.png",
       title: "Проект crm-так digital агентство NET",
       description: "Разработка CRM системы для управления клиентами",
       color: "bg-purple-100 border-purple-200",
     },
     {
-      logo: "/src/assets/CaseStudy/case3.png",
+      logo: "/CaseStudy/case3.png",
       title: "Веб-проект для А-клуба",
       description:
         "Создание современного веб-сайта с интерактивными элементами",
       color: "bg-gray-100 border-gray-200",
     },
     {
-      logo: "/src/assets/CaseStudy/case4.png",
-      sidelogo: "/src/assets/CaseStudy/smallcase2.png",
+      logo: "/CaseStudy/case4.png",
+      sidelogo: "/CaseStudy/smallcase2.png",
       title: "Дизайн интернет банка криптовалютном",
       description: "Проектирование интерфейса для криптовалютной платформы",
       color: "bg-yellow-100 border-yellow-200",
     },
     {
-      logo: "/src/assets/CaseStudy/case5.png",
-      sidelogo: "/src/assets/CaseStudy/smallcase4.png",
+      logo: "/CaseStudy/case5.png",
+      sidelogo: "/CaseStudy/smallcase4.png",
       title: "Конструктор-билдер дашборд Green Health",
       description: "Создание аналитической панели для здравоохранения",
       color: "bg-blue-100 border-blue-200",

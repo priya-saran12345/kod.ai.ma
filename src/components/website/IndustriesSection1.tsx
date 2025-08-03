@@ -4,52 +4,52 @@ const IndustriesSection = () => {
       title: "Frontend Programming Language",
       isHighlighted: false,
       technologies: [
-        { image: "/src/assets/industries/icon1.svg", name: "Tilda", color: "bg-gray-800 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Figma", color: "bg-gray-800 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Adobe XD", color: "bg-purple-600 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Photoshop", color: "bg-blue-600 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Spark AR", color: "bg-gray-800 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Illustrator", color: "bg-orange-600 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "After Effects", color: "bg-purple-800 text-white" }
+        { image: "/industries/icon1.svg", name: "Tilda", color: "bg-gray-800 text-white" },
+        { image: "/industries/icon1.svg", name: "Figma", color: "bg-gray-800 text-white" },
+        { image: "/industries/icon1.svg", name: "Adobe XD", color: "bg-purple-600 text-white" },
+        { image: "/industries/icon1.svg", name: "Photoshop", color: "bg-blue-600 text-white" },
+        { image: "/industries/icon1.svg", name: "Spark AR", color: "bg-gray-800 text-white" },
+        { image: "/industries/icon1.svg", name: "Illustrator", color: "bg-orange-600 text-white" },
+        { image: "/industries/icon1.svg", name: "After Effects", color: "bg-purple-800 text-white" }
       ]
     },
     {
       title: "Artificial Intelligence",
       isHighlighted: true,
       technologies: [
-        { image: "/src/assets/industries/icon1.svg", name: "Tilda", color: "bg-gray-800 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Figma", color: "bg-gray-800 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Adobe XD", color: "bg-red-600 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Photoshop", color: "bg-blue-600 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Spark AR", color: "bg-green-600 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Illustrator", color: "bg-orange-600 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "After Effects", color: "bg-green-600 text-white" }
+        { image: "/industries/icon1.svg", name: "Tilda", color: "bg-gray-800 text-white" },
+        { image: "/industries/icon1.svg", name: "Figma", color: "bg-gray-800 text-white" },
+        { image: "/industries/icon1.svg", name: "Adobe XD", color: "bg-red-600 text-white" },
+        { image: "/industries/icon1.svg", name: "Photoshop", color: "bg-blue-600 text-white" },
+        { image: "/industries/icon1.svg", name: "Spark AR", color: "bg-green-600 text-white" },
+        { image: "/industries/icon1.svg", name: "Illustrator", color: "bg-orange-600 text-white" },
+        { image: "/industries/icon1.svg", name: "After Effects", color: "bg-green-600 text-white" }
       ]
     },
     {
       title: "Mobile App Development",
       isHighlighted: false,
       technologies: [
-        { image: "/src/assets/industries/icon1.svg", name: "Tilda", color: "bg-gray-800 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Figma", color: "bg-gray-800 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Adobe XD", color: "bg-purple-600 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Photoshop", color: "bg-blue-600 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Spark AR", color: "bg-gray-800 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "Illustrator", color: "bg-orange-600 text-white" },
-        { image: "/src/assets/industries/icon1.svg", name: "After Effects", color: "bg-purple-800 text-white" }
+        { image: "/industries/icon1.svg", name: "Tilda", color: "bg-gray-800 text-white" },
+        { image: "/industries/icon1.svg", name: "Figma", color: "bg-gray-800 text-white" },
+        { image: "/industries/icon1.svg", name: "Adobe XD", color: "bg-purple-600 text-white" },
+        { image: "/industries/icon1.svg", name: "Photoshop", color: "bg-blue-600 text-white" },
+        { image: "/industries/icon1.svg", name: "Spark AR", color: "bg-gray-800 text-white" },
+        { image: "/industries/icon1.svg", name: "Illustrator", color: "bg-orange-600 text-white" },
+        { image: "/industries/icon1.svg", name: "After Effects", color: "bg-purple-800 text-white" }
       ]
     },
     {
       title: "Backend Programming Language",
       isHighlighted: false,
       technologies: [
-        {image: "/src/assets/industries/icon1.svg", name: "Tilda", color: "bg-gray-800 text-white" },
-        {image: "/src/assets/industries/icon1.svg", name: "Figma", color: "bg-gray-800 text-white" },
-        {image: "/src/assets/industries/icon1.svg", name: "Adobe XD", color: "bg-purple-600 text-white" },
-        {image: "/src/assets/industries/icon1.svg", name: "Photoshop", color: "bg-blue-600 text-white" },
-        {image: "/src/assets/industries/icon1.svg", name: "Spark AR", color: "bg-gray-800 text-white" },
-        {image: "/src/assets/industries/icon1.svg", name: "Illustrator", color: "bg-orange-600 text-white" },
-        {image: "/src/assets/industries/icon1.svg", name: "After Effects", color: "bg-purple-800 text-white" }
+        {image: "/industries/icon1.svg", name: "Tilda", color: "bg-gray-800 text-white" },
+        {image: "/industries/icon1.svg", name: "Figma", color: "bg-gray-800 text-white" },
+        {image: "/industries/icon1.svg", name: "Adobe XD", color: "bg-purple-600 text-white" },
+        {image: "/industries/icon1.svg", name: "Photoshop", color: "bg-blue-600 text-white" },
+        {image: "/industries/icon1.svg", name: "Spark AR", color: "bg-gray-800 text-white" },
+        {image: "/industries/icon1.svg", name: "Illustrator", color: "bg-orange-600 text-white" },
+        {image: "/industries/icon1.svg", name: "After Effects", color: "bg-purple-800 text-white" }
       ]
     }
   ];

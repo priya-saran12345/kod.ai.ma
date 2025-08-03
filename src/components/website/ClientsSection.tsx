@@ -2,20 +2,20 @@ import Slider from "react-slick";
 
 export const ClientsSection = () => {
   const clientLogos = [
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png",
-    "/src/assets/client/client1.png"
+    "/client/client1.png",
+    "/client/client1.png",
+    "/client/client1.png",
+    "/client/client1.png",
+    "/client/client1.png",
+    "/client/client1.png",
+    "/client/client1.png",
+    "/client/client1.png",
+    "/client/client1.png",
+    "/client/client1.png",
+    "/client/client1.png",
+    "/client/client1.png",
+    "/client/client1.png",
+    "/client/client1.png"
   ];
 
   const sliderSettings = {

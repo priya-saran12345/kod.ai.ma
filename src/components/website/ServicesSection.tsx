@@ -21,7 +21,7 @@ export const ServicesSection = () => {
 {/* <div className="rounded-lg p-4 h-40 flex w-full bg-white items-center justify-center"> */}
   {/* <div className="bg-white rounded-lg shadow-md w-full max-w-xs h-32 flex items-center justify-center"> */}
     <img
-      src="/src/assets/service/service1.png" // replace with your actual image path
+      src="/service/service1.png" // replace with your actual image path
       alt="App Interface Preview"
       className="w-full h-full"
     />
@@ -40,7 +40,7 @@ export const ServicesSection = () => {
             
             {/* Mock Website Image */}
     <img
-      src="/src/assets/service/service2.png" // replace with your actual image path
+      src="/service/service2.png" // replace with your actual image path
       alt="App Interface Preview"
       className="w-full "
     />
@@ -55,7 +55,7 @@ export const ServicesSection = () => {
             
             {/* Mock AI Interface */}
     <img
-      src="/src/assets/service/service3.png" // replace with your actual image path
+      src="/service/service3.png" // replace with your actual image path
       alt="App Interface Preview"
       className="w-full "
     />

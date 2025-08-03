@@ -4,37 +4,37 @@ const ServicesSection = () => {
       title: "User Experience Design (UX)",
       description:
         "Creating unique designs that are centered around the mindset of your target segment and ensuring seamless flow",
-      image: "/src/assets/servicePage/service1.png", // replace with actual image path
+      image: "/servicePage/service1.png", // replace with actual image path
     },
     {
       title: "User Interface Design (UI)",
       description:
         "Creating unique designs that are centered around the mindset of your target segment and ensuring seamless flow",
-      image: "/src/assets/servicePage/service2.png", // replace with actual image path
+      image: "/servicePage/service2.png", // replace with actual image path
     },
     {
       title: "Cross-platform Experience Design",
       description:
         "Creating unique designs that are centred around the mindset of your target segment and ensuring seamless flow",
-      image: "/src/assets/servicePage/service3.png", // replace with actual image path
+      image: "/servicePage/service3.png", // replace with actual image path
     },
     {
       title: "Interaction Design",
       description:
         "Designing interactive digital products, environments, systems, and services according to user behaviour",
-      image: "/src/assets/servicePage/service4.png", // replace with actual image path
+      image: "/servicePage/service4.png", // replace with actual image path
     },
     {
       title: "UI/UX Consulting & Auditing",
       description:
         "Get the best consulting on UI/UX design services to improve the design and usability of your digital products",
-      image: "/src/assets/servicePage/service5.png", // replace with actual image path
+      image: "/servicePage/service5.png", // replace with actual image path
     },
     {
       title: "Design System",
       description:
         "Systematic approach to design and ensure consistency, efficiency, and scalability across different platforms",
-      image: "/src/assets/servicePage/service6.png", // replace with actual image path
+      image: "/servicePage/service6.png", // replace with actual image path
     },
   ];
   return (
