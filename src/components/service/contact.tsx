@@ -1,7 +1,7 @@
 
 const ContactSection = () => {
   return (
-    // <section className="bg-[url('/grid-bg.svg')]  bg-cover bg-center rounded-3xl py-20 px-4 md:px-12">
+    // <section className="-[url('/grid-bg.svg')]bg  bg-cover bg-center rounded-3xl py-20 px-4 md:px-12">
     <section className="  bg-slate-200  bg-center rounded-3xl px-3 py-6 md:p-12 mx-4 md:mx-8  lg:mx-12 mb-12">
       <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left: Text */}

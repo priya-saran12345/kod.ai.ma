@@ -6,9 +6,8 @@ import { HeroBanner } from "../components/website/HeroBanner";
 import  IndustriesSection1  from "../components/website/IndustriesSection1";
 import { IndustriesSection } from "../components/website/IndustriesSection";
 import { ServicesSection } from "../components/website/ServicesSection";
-
 export const LandingPage = () => {
-  return (
+    return (
     <>
     <div className="min-h-screen p-4">
       <HeroBanner/>
