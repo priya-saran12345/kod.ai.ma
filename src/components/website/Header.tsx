@@ -16,11 +16,10 @@ export const Header = () => {
     { name: "Digital Marketing", icon: "📈" },
     { name: "Artificial Intelligence", icon: "🧠" },
   ];
-
   return (
     <>
       {/* Header */}
-      <header className="bg-[#222] text-white px-4 md:px-12 py-4 rounded-t-4xl relative z-50">
+      <header className=" text-white px-4 md:px-12 py-4 rounded-t-4xl relative z-50">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to={"/"}>
