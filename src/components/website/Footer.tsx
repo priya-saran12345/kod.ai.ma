@@ -13,10 +13,10 @@ export const Footer = () => {
             <h4 className="font-bold mb-4">Services</h4>
             <ul className="space-y-2 text-sm ">
               <li className="relative w-fit group overflow-hidden">
-                <a href="/services" className="hover:text-green-400 transition-colors">
+                <Link to="/services" className="hover:text-green-400 transition-colors">
                   Web Design
                   <span className="absolute left-0 bottom-0 h-0.5 bg-green-400 w-0 group-hover:w-full transition-all duration-300"></span>
-                </a>
+                </Link>
               </li>
               <li className="relative w-fit group overflow-hidden">
                 <Link to="/services" className="hover:text-green-400 transition-colors">
