@@ -56,14 +56,14 @@ export const Header = () => {
                     <div className="w-1/3 pr-4 ">
                       <ul className="flex flex-col gap-2">
                         {services.map((item, idx) => (
-                          <a href="/services" key={idx}>
+                          <Link to="/services" key={idx}>
                             <li className="flex items-center gap-2 px-3 py-1 rounded-full bg-white hover:bg-[#8FE89C] transition cursor-pointer text-sm">
                               <span className="h-[40px] w-[40px] bg-[#8FE89C] rounded-full flex justify-center items-center">
                                 {item.icon}
                               </span>
                               <span>{item.name}</span>
                             </li>
-                          </a>
+                          </Link>
                         ))}
                       </ul>
                     </div>
@@ -152,9 +152,9 @@ export const Header = () => {
                   className="flex text-black cursor-pointer items-center gap-2 px-3 py-2 rounded-full bg-white
                    hover:bg-[#8FE89C] transition text-sm"
                 >
-                  <a href="/services">
+                  <Link to="/services">
                     <span>{item.name}</span>
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

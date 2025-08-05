@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Footer = () => {
   return (
     <footer className="bg-[#222222] text-white py-16 px-8 md:px-10 lg:px-16">
@@ -17,28 +19,28 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="relative w-fit group overflow-hidden">
-                <a href="/services" className="hover:text-green-400 transition-colors">
+                <Link to="/services" className="hover:text-green-400 transition-colors">
  App Development     
               <span className="absolute left-0 bottom-0 h-0.5 bg-green-400 w-0 group-hover:w-full transition-all duration-300"></span>
-                </a>
+                </Link>
               </li>
               <li className="relative w-fit group overflow-hidden">
-                <a href="/services" className="hover:text-green-400 transition-colors">
+                <Link to="/services" className="hover:text-green-400 transition-colors">
                   UI/UX Design
                   <span className="absolute left-0 bottom-0 h-0.5 bg-green-400 w-0 group-hover:w-full transition-all duration-300"></span>
-                </a>
+                </Link>
               </li>
               <li className="relative w-fit group overflow-hidden">
-                <a href="/services" className="hover:text-green-400 transition-colors">
+                <Link to="/services" className="hover:text-green-400 transition-colors">
                   Digital Marketing
                   <span className="absolute left-0 bottom-0 h-0.5 bg-green-400 w-0 group-hover:w-full transition-all duration-300"></span>
-                </a>
+                </Link>
               </li>
               <li className="relative w-fit group overflow-hidden">
-                <a href="/services" className="hover:text-green-400 transition-colors">
+                <Link to="/services" className="hover:text-green-400 transition-colors">
                   Consulting
                   <span className="absolute left-0 bottom-0 h-0.5 bg-green-400 w-0 group-hover:w-full transition-all duration-300"></span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -47,34 +49,34 @@ export const Footer = () => {
             <h4 className="font-bold mb-4">Company</h4>
             <ul className="space-y-2 text-sm ">
                             <li className="relative w-fit group overflow-hidden">
-                <a href="/aboutus" className="hover:text-green-400 transition-colors">
+                <Link to="/aboutus" className="hover:text-green-400 transition-colors">
                   About Us
                   <span className="absolute left-0 bottom-0 h-0.5 bg-green-400 w-0 group-hover:w-full transition-all duration-300"></span>
-                </a>
+                </Link>
               </li>
               <li className="relative w-fit group overflow-hidden">
-                <a href="#" className="hover:text-green-400 transition-colors">
+                <Link to="#" className="hover:text-green-400 transition-colors">
                   Our Team
                   <span className="absolute left-0 bottom-0 h-0.5 bg-green-400 w-0 group-hover:w-full transition-all duration-300"></span>
-                </a>
+                </Link>
               </li>
               <li className="relative w-fit group overflow-hidden">
-                <a href="#" className="hover:text-green-400 transition-colors">
+                <Link to="#" className="hover:text-green-400 transition-colors">
                   Careers
                   <span className="absolute left-0 bottom-0 h-0.5 bg-green-400 w-0 group-hover:w-full transition-all duration-300"></span>
-                </a>
+                </Link>
               </li>
               <li className="relative w-fit group overflow-hidden">
-                <a href="/contact" className="hover:text-green-400 transition-colors">
+                <Link to="/contact" className="hover:text-green-400 transition-colors">
                   Contact
                   <span className="absolute left-0 bottom-0 h-0.5 bg-green-400 w-0 group-hover:w-full transition-all duration-300"></span>
-                </a>
+                </Link>
               </li>
               <li className="relative w-fit group overflow-hidden">
-                <a href="/work" className="hover:text-green-400 transition-colors">
+                <Link to="/work" className="hover:text-green-400 transition-colors">
                   Our Work
                   <span className="absolute left-0 bottom-0 h-0.5 bg-green-400 w-0 group-hover:w-full transition-all duration-300"></span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
